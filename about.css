@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    background-image: url(./assests/bg1.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about {
+    padding: 5rem 2rem;
+    text-align: center;
+    
+}
+
+
+
+.about h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: azure;
+}
+
+.about p {
+    font-size: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto 2rem auto;
+    
+}
+
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+header {
+    background-color: #bad6f5;
+    position: sticky;
+    top: 0 rem;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    
+}
+
+.nav-links a {
+    color: #070707;
+    text-decoration: none;
+    
+    
+}
+
+.nav-links a:hover {
+    color: #090909;
+}
+.clr h1{
+    color: azure;
+}
